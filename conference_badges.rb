@@ -1,4 +1,6 @@
 # Write your code here.
+require "pry"
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -11,6 +13,7 @@ def batch_badge_creator(array)
 end
 return badge_message_array
 end
+binding.pry
 
 def assign_rooms(array)
   room_assignment_array = []
