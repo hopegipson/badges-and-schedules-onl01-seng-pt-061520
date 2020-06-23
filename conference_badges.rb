@@ -30,6 +30,7 @@ def printer
   end
   y = assign_rooms(array)
   y.map.each_with_index do |rooms, index|
+    puts 
 end
 
     
