@@ -27,4 +27,5 @@ def printer
   x = batch_badge_creator(array)
   x.collect do |badges|
     
+    
 end
