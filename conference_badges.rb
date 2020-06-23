@@ -29,7 +29,7 @@ def printer
     badges
   end
   y = assign_rooms(array)
-  y.map.each_with_index |rooms, index|
+  y.map.each_with_index do |rooms, index|
 end
 
     
