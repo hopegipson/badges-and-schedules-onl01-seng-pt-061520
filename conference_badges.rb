@@ -28,6 +28,7 @@ def printer
   x.collect do |badges|
     badges
   end
-  
+  y = assign_rooms(array)
+  y.map
     
 end
