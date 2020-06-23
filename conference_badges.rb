@@ -28,5 +28,6 @@ def printer
   x.collect do |badges|
     badges
   end
+  
     
 end
