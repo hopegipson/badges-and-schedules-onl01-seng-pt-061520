@@ -23,14 +23,14 @@ def assign_rooms(array)
   return room_assignment_array
 end
 
-def printer
+def printer(array)
   x = batch_badge_creator(array)
   x.collect do |badges|
-    badges
+   puts badges
   end
   y = assign_rooms(array)
   y.collect do |rooms|
-    rooms
+   puts rooms
 end
 
     
